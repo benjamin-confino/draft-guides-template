@@ -138,7 +138,7 @@ Before proceeding to the next step it is highly advised to take a look at the ja
 
 It is also important to be aware that `getBeanClasses()` is a unique Open Liberty idiom. The normal way to add a new bean would be to make a class that implements `javax.enterprise.inject.spi.Extension` and register it via `META-INF/services`.
 
-If you wish to use `Extension` for compatibility with other Java EE servers or because your integration requires the power of a full `Extension` then `CDIExtensionMetadata` has a different method you can use for this purpose. If you want to register your extension via `META-INF/services` rather than ` CDIExtensionMetadata` see this guide here: https://openliberty.io/docs/latest/reference/feature/bells-1.0.html
+If you wish to use `Extension` for compatibility with other Java EE servers or because your integration requires the power of a full `Extension` then `CDIExtensionMetadata` has a different method you can use for this purpose. If you want to register your extension via `META-INF/services` rather than `CDIExtensionMetadata` see this guide here: https://openliberty.io/docs/latest/reference/feature/bells-1.0.html
 
 ==== Step one B: Write the pom.xml.
 
